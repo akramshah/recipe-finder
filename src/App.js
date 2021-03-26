@@ -35,7 +35,7 @@ const App = () => {
     <div className = "App">
     <div className = "blurb">
       <h1>Quick Prep</h1>
-      <p>QuickPrep is an app that allows you to search through an extensive database of recipes via Edamam. Try searching by ingredient or dish, and see a list ingredients and calories. A simple way to find the recipes you're looking for, without all the added nonsense of recipe articles.</p>
+      <p>QuickPrep is an app that allows you to search through an extensive database of recipes via Edamam. Try searching by ingredient or dish, and see a list ingredients and calories. A simple way to find the recipes you're looking for, without all the added nonsense of recipe articles. Try it! Type in "chicken", "eggplant", "Thai" into the search bar.</p>
     </div>
     <form onSubmit={getQuery} className="search">
     <input className="search-bar" type="text" value={search} onChange={searchUpdate} />

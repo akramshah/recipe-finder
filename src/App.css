@@ -146,13 +146,21 @@
 }
 
 .blurb {
-  max-width: 400px;
+  max-width: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: auto;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   color: #D9483B;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color:#84BF49;
+
 }
 /* @media (min-width: 576px) {
   .card-deck {
