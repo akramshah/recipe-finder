@@ -23,7 +23,7 @@ const App = () => {
   const searchUpdate = e => {
     setSearch(e.target.value)
     // console.log(search)
-    setQuery('chicken')
+    setQuery('')
   }
 
   const getQuery = e => {
